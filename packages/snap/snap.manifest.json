@@ -16,12 +16,17 @@
       }
     }
   },
-  "initialPermissions": {
-    "snap_confirm": {},
-    "endowment:rpc": {
-      "dapps": true,
-      "snaps": false
-    }
+   "initialPermissions": {
+    "endowment:cronjob": {
+      "jobs": [
+        {
+          "expression": "* * * * *",
+          "request": {
+            "method": "hello"
+          }
+        }
+      ]
+    },
   },
   "manifestVersion": "0.1"
 }
