@@ -1,3 +1,5 @@
+```As mentioned by Metamask snaps team "Unfortunately it looks like 10.25.0 shipped with a bug breaking cronjobs. You'll have to wait for the next release" so we spend a lot of time fixing but later get to know this issue so we wrote the code but due to this issue code was not running properly.```
+
 # Project Description
 This project is a web application that allows users to schedule their Ethereum transactions using Metamask Snaps. The application leverages the Metamask Snaps cronjob feature to schedule transactions based on user-defined conditions. Users can specify a time for the transaction to execute and provide the recipient address and other necessary transaction details.
 
